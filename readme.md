@@ -2,4 +2,4 @@
 #Project Name: git-repo
 
 Basic functionality is available in master branch
-Work started on the feature1 of the project in branch feature1 
+Feature1 has been successfully implemented and ready to be merged with master.
