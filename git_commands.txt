@@ -1,0 +1,431 @@
+
+
+#Git command summary look for what you want
+ 756  git init
+  757  ls -la
+  758  l
+  759  git status
+  760  touch mypass.txt
+  761  g mypass.txt 
+  762  touch .gitignore
+  763  l
+  764  g .gitignore
+  765  git status
+  766  git add collatz.py
+  767  git status
+  768  git add -A
+  769  git status
+  770  git reset collatz.py
+  771  git status
+  772  git reset 
+  773  git status
+  774  git add -A
+  775  git status
+  776  git commit -m "initial commit"
+  777  git status
+  778  git log
+  779  git remote -v
+  780  git branch -v
+  781  g collatz.py 
+  782  git status
+  783  git diff
+  784  git status
+  785  git add -A
+  786  git status
+  787  g collatz.py 
+  788  git diff
+  789  git add -A
+  790  git status
+  791  git commit -m "Added thank you note"
+  792  git log
+  793  git remote add origin https://github.com/anuhdi95/python
+  794  git push -f origin master
+  795  git pull origin master
+  796  git diff
+  797  ls
+  798  touch hello_world.py
+  799  g hello_world.py 
+  800  python hello_world.py 
+  801  git push remote master
+  802  git push origin master
+  803  git add hello_world.py
+  804  git status 
+  805  git reset hello_world.py
+  806  git status 
+  807  git add hello_world.py
+  808  git commit -m "Made hello world programm"
+  809  git status 
+  810  git push origin master
+  811  get branch -a
+  812  git branch -a
+  813  git checkout remotes/origin/master
+  814  ls
+  815  git config color.ui true
+  816  git status
+  817  python
+  818  touch bday_dict.py
+  819  g bday_dict.py 
+  820  python bday_dict.py 
+  821  git add bday_dict.py
+  822  git diff
+  823  git reset
+  824  git diff
+  825  git add bday_dict.py
+  826  git commit -m "Added birthdate project"
+  827  git log
+  828  git branch -all
+  829  git branch --all
+  830  git push origin master
+  831  git log
+  832  ls
+  833  git pull origin master
+  834  ls
+  835  git push origin master
+  836  ls
+  837  git add -A
+  838  git status
+  839  git branches
+  840  git branch
+  841  git checkout master 
+  842  git branch
+  843  git add -A
+  844  git log
+  845  git status
+  846  ls
+  847  nautilus
+  848  git branch new_branch_name 58c447b
+  849  git ba=ranch
+  850  git branch
+  851  git checkout new_branch_name 
+  852  ls
+  853  git log
+  854  git merge new_branch_name master 
+  855  git branch
+  856  git --merged
+  857  git branch --merged
+  858  git checkout master 
+  859  ls
+  860  git log
+  861  git merge new_branch_name 
+  862  ls
+  863  git branch
+  864  git diff
+  865  git status
+  866  git pull origin master
+  867  git log
+  868  git status
+  869  git branch
+  870  git push origin master
+  871  git branch --merged
+  872  git branch -a
+  873  git push -u origin new_branch_name 
+  874  git branch -a
+  875  git branch -d new_branch_name 
+  876  git branch -a
+  877  git push origin --delete new_branch_name
+  878  git branch -a
+  726  ll /mnt/d/github/akiitr.github.io/assets/img/sldshow/
+  727  ls /mnt/d/github/akiitr.github.io/assets/img/sldshow/
+  728  ls /mnt/d/github/akiitr.github.io/assets/img/sldshow/Manglore.jpg 
+  729  ls /mnt/d/github/akiitr.github.io/assets/img/anubhav.jpg 
+  730  ls /mnt/d/github/akiitr.github.io/assets/img/sldshow/ > ak
+  747  git-config --list
+  748  git config --list
+  749  git config --name "Anubhav Kumar"
+  750  git config --global user.name "Anubhav Kumar"
+  751  git config --list
+ 1089  git --version
+ 1090  git config --list
+ 1091  git config --global user.name "akiitr"
+ 1092  git config --list
+ 1093  git config --global user.email "akumar14@ec.iitr.ac.in"
+ 1094  git config --list
+ 1096  mkdir git-repo
+ 1098  cd git-repo/
+ 1102  git init
+ 1103  git status 
+ 1106  git sta
+ 1107  git status 
+ 1108  git add file1.txt 
+ 1110  git status
+ 1111  git commit -m "The first file created file1.txt"
+ 1112  git status
+ 1115  git status 
+ 1116  git diff file1.txt
+ 1117  git commit -m "Added 2nd line to file1.txt"
+ 1118  git status
+ 1119  git add file1.txt file1.txt 
+ 1120  git status 
+ 1121  git reset HEAD
+ 1122  git status
+ 1123  git diff file1.txt
+ 1124  git add file1.txt 
+ 1125  git commit -m "Added 2nd line to file1"
+ 1129  git status
+ 1130  git add fiel2.txt 
+ 1131  git diff fiel2.txt
+ 1132  git diff file3.txt
+ 1133  git status 
+ 1134  git commit -m "Added 2 more files"
+ 1135  git rm --cached fiel2.txt 
+ 1136  git status
+ 1139  git status
+ 1140  git diff file2.txt file3.txt
+ 1141  git add -A
+ 1142  git status
+ 1143  git commit -m "Added two more file while renaming file2"
+ 1144  git status
+ 1145  git help diff
+ 1146  git log
+ 1147  git reser --soft HEAD~
+ 1148  git reset --soft HEAD~
+ 1149  git log
+ 1150  git reset --soft HEAD~
+ 1151  git log
+ 1152  git status
+ 1153  git commit -m "Added 2 more files while reverting commit with git reset and unstaging file with git rm"
+ 1154  git log
+ 1155  git reset --soft HEAD~
+ 1156  git log
+ 1157  git status
+ 1158  git log
+ 1159  git commit =m "Added two files by reverting with git reset unstaging with git rm checking diff with git diff and commit history with git log."
+ 1160  git commit -m "Added two files by reverting with git reset unstaging with git rm checking diff with git diff and commit history with git log."
+ 1161  git log
+ 1162  echo "Adding this line to remove using git checkout" >> file1.txt 
+ 1163  git diff file
+ 1164  git diff file1.txt
+ 1167  git diff file1.txt
+ 1169  git diff file1
+ 1170  git diff file1.txt
+ 1171  git status
+ 1172  git checkout file1.txt
+ 1173  git status
+ 1174  git diff file
+ 1175  git diff file1.txt
+ 1180  git status
+ 1181  echo "*.jpg" > .gitignore
+ 1182  git status
+ 1183  git add -A
+ 1184  git commit -m "Added a gitignore file"
+ 1185  git log
+ 1186  git status
+ 1189  git status
+ 1195  git help log
+ 1196  git help diff
+ 1197  git log > .log
+ 1198  echo ".log" > .gitignore
+ 1200  git status
+ 1201  git rm --cached .gitignore 
+ 1202  git status
+ 1203  less .gitignore 
+ 1204  git checkout .gitignore
+ 1207  git status
+ 1208  git reset HEAD .gitignore
+ 1209  gitt sttatus
+ 1210  git status
+ 1211  git diff .gitignore
+ 1212  git checkout .gitignore
+ 1213  git status 
+ 1214  echo ".log" >> .gitignore 
+ 1215  git status 
+ 1216  commit -m "Added .log file which contains commit history with secret SHA-1 keys to .gitignore to save tracking and uploading this file"
+ 1217  git commit -m "Added .log file which contains commit history with secret SHA-1 keys to .gitignore to save tracking and uploading this file"
+ 1218  git add -a
+ 1219  git add -A
+ 1220  git commit -m "Added .log file which contains commit history with secret SHA-1 keys to .gitignore to save tracking and uploading this file"
+ 1221  git status
+ 1222  git log > .log
+ 1223  git status
+ 1224  git log| grep day
+ 1228  git .log | grep Date
+ 1229  git log | grep Date
+ 1230  git log | grep Date 
+ 1231  git log | grep Date | wc Sat
+ 1233  git log | grep Date | wc -w 
+ 1234  git log | grep Date | wc -w 'Sat'
+ 1235  git log | grep Sat | wc -w 
+ 1236  git log | grep -o Sat | wc -w 
+ 1237  git log | grep -o Sat
+ 1238  git branch
+ 1239  git branch feature1
+ 1240  git branch
+ 1241  git branch -b feature2
+ 1242  git branch
+ 1243  git checkout feature1 
+ 1244  git branch
+ 1245  git branch -d feature1 
+ 1246  git checkout master
+ 1247  git branch
+ 1248  git branch -d feature1 
+ 1249  git log
+ 1250  git branch
+ 1251  echo "This is the project where i am learning git features" > readme.txt
+ 1252  echo "Project Name: git-repo" >> readme.txt 
+ 1257  git status
+ 1259  git status
+ 1260  git add -A
+ 1261  git status
+ 1262  git commit -m "Creaated a readme.md file for information on the repo"
+ 1263  git status
+ 1264  git branch
+ 1265  git checkout -b feature1
+ 1266  git status
+ 1269  git diff 
+ 1270  git branch
+ 1271  git status
+ 1272  git add -A
+ 1273  git status
+ 1274  git commit -m "feature1 work started updated on readme.md"
+ 1275  git status
+ 1277  git branch feature2
+ 1278  git brench
+ 1279  git branch
+ 1280  git checkout feature2
+ 1281  git status
+ 1284  git branch
+ 1286  git add -A
+ 1287  git status
+ 1288  git commit -m "Updated readme for work on feature3"
+ 1289  git status
+ 1290  git checkout master 
+ 1291  git status
+ 1292  git checkout feature1
+ 1294  git status
+ 1295  git add -A
+ 1296  git status
+ 1297  git commit -m "Feature1 has been sucessfully implemented and ready to be merged with master"
+ 1298  git status
+ 1299  git checkout master 
+ 1300  git status 
+ 1301  git merge feature1 
+ 1302  git status
+ 1303  git log
+ 1304  git branch
+ 1306  git reset readme.md
+ 1307  git log
+ 1308  git reset --soft HEAD~
+ 1309  git .log
+ 1310  git log
+ 1311  git reset --hard HEAD
+ 1312  git log
+ 1313  git reset --hard HEAD~
+ 1314  git log
+ 1315  git status
+ 1316  git branch 
+ 1318  diff .log $(git log)
+ 1319  diff .log git log
+ 1320  diff .log (git log)
+ 1321  diff .log $(git log)
+ 1322  git log | diff .log 
+ 1323  git log > .temp
+ 1328  git status 
+ 1329  git log > .log
+ 1331  git checkout 
+ 1332  git branch 
+ 1333  git checkout feature1
+ 1334  git status
+ 1335  git branch 
+ 1336  git status 
+ 1337  git log > .log
+ 1339  git checkout master 
+ 1340  git branch 
+ 1341  git merge feature1
+ 1342  git log
+ 1345  git branch feature2
+ 1347  git branch feature1
+ 1348  git branch 
+ 1350  git checkout feature2
+ 1352  git merge feature2
+ 1354  git checkout master 
+ 1355  git merge feature2
+ 1356  git log
+ 1357  git status
+ 1359  git reset --hard HEAD 
+ 1361  git checkout feature2
+ 1363  git checkout master 
+ 1364  git branch
+ 1365  git status
+ 1366  git add -A
+ 1367  git commit -m "Feature2 has been implemented and being merged to master"
+ 1368  git status
+ 1369  git checkout master 
+ 1370  git bara
+ 1371  git branch 
+ 1372  git status
+ 1374  git merge feature2
+ 1375  git status
+ 1377  git status
+ 1379  git status
+ 1380  git commit -m "conflicts resolved by editing the conflicted file and removing the all == >> lines with only requied lines remained in the file"
+ 1381  git add -A
+ 1382  git commit -m "conflicts resolved by editing the conflicted file and removing the all == >> lines with only requied lines remained in the file"
+ 1383  git status 
+ 1384  git log
+ 1386  git log > .log
+ 1388  git remote
+ 1390  mv git-rep unix
+ 1391  git remote
+ 1392  cd git-repo/
+ 1393  git remote 
+ 1394  git remote add origin https://github.com/akiitr/unix
+ 1395  git remote
+ 1396  git push -u origin
+ 1397  git branch
+ 1398  git push -u origin master
+ 1399  git pull -u orign master
+ 1400  git help pull
+ 1401  git pull orign master
+ 1402  git fetch origin
+ 1404  git log
+ 1405  git merge origin master
+ 1406  git pull origin master
+ 1407  git pull --allow-unrelated-histories origin master
+ 1409  git log
+ 1410  git status
+ 1411  git pull master
+ 1412  git pull origin master
+ 1413  git push -u origin master
+ 1416  git checkout feature1
+ 1418  git merge master
+ 1428  git add -A
+ 1429  git commit -m "Added more relevent message to README file for github."
+ 1430  git push origin feature1 
+ 1431  git push -u origin master
+ 1432  git pull
+ 1433  git status
+ 1434  git branch
+ 1435  git branch master 
+ 1436  git pull
+ 1437  git pull origin master
+ 1438  git log
+ 1439  git status
+ 1441  git reset --hard HEAD
+ 1442  git log
+ 1444  git reset --hard HEAD
+ 1446  git reset --hard HEAD
+ 1447  git log
+ 1448  git reset --hard HEAD 24cb428d269732fbefc0575481bd8bb3e48187d6
+ 1449  git reset --hard HEAD~
+ 1451  git log
+ 1452  git status
+ 1454  git log > .log
+ 1456  git push -u origin master
+ 1457  git push -f origin master
+ 1458  git branch feature1
+ 1459  git checkout feature1
+ 1461  git branch 
+ 1462  git checkout master 
+ 1464  git log
+ 1465  git checkout feature1
+ 1466  git log
+ 1467  git checkout master 
+ 1468  git pull origin master
+ 1469  git checkout feature1
+ 1470  git push origin feature1
+ 1471  git push -f origin feature1
+ 1472  git pull
+ 1473  git pull origin feature1 
+ 1483  mv commands.txt git_commands.txt 
+ 1485  history | grep git
+ 1486  history | grep git >> git_commands.txt 
