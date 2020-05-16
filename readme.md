@@ -3,3 +3,4 @@
 
 Basic functionality is available in master branch
 Feature1 has been successfully implemented and ready to be merged with master.
+Feature2 has been successfully implemented and is merging with master.
