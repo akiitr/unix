@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+#File: range
+
+echo $(seq 0 $1)
+echo $(seq $1 0)

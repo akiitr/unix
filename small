@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#File: small
+echo "This is small program"
